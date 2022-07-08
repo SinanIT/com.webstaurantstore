@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/sinan/OneDrive/projects/com.webstaurantstore">
+        <classes>
+            <class name="testPages.HomePageSearchTest">
+                <methods>
+                    <include name="searchProductsTest"/>
+                    <include name="addProductToCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
